@@ -264,8 +264,7 @@ def main():
     count = 0
     while True:
         graphmodel.train()
-        if count % 2 == 1:
-            graphmodel.validation()
+        graphmodel.validation()
         count += 1
 #        graphmodel.test()
 
